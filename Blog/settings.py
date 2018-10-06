@@ -28,8 +28,8 @@ DEBUG = False
 # ALLOWED_HOSTS = []
 # DEBUG가 True이고 ALLOWED_HOSTS가 비어 있으면 호스트는 ['localhost', '127.0.0.1', '[::1]']에 대해서 유효함.
 # 애플리케이션을 배포할 경우 호스트 이름과 일치하지 않으므로 다음과 같이 바꾸어 주어야 한다.
-ALLOWED_HOSTS = ['127.0.0.1', '.hindoong.me']
-
+# ALLOWED_HOSTS = ['127.0.0.1', '.hindoong.me']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
