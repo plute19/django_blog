@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>메인 페이지</title>
+</head>
+<body>
+    <h1>{{message}}</h1>
+    <button onclick="location.href='save'">저장</button>
+    result = {{result}}
+    {% comment %}
+        {% if result == true && result =! null %}
+            <h3>성공</h3>
+        {% else %}
+            <h3>실패</h3>
+        {% endif %}
+    {% endcomment %}
+</body>
+</html>
